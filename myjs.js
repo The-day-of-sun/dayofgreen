@@ -1,3 +1,5 @@
+import firebase from '@firebase/app';
+require('firebase/auth');
 var provider = new firebase.auth.GoogleAuthProvider();
 var user;
 var selectedFile;
